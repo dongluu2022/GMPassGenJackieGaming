@@ -1,0 +1,42 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: GMPassGen - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/GMPassGen.res" /d "NDEBUG" "G:\DevGame2024\Jx1\JxWin\Source\GMPassGen\GMPassGen.rc"" 
+Creating temporary file "C:\Users\james\AppData\Local\Temp\RSP8990.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/GMPassGen.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"G:\DevGame2024\Jx1\JxWin\Source\GMPassGen\GMPassGen.cpp"
+"G:\DevGame2024\Jx1\JxWin\Source\GMPassGen\GMPassGenDlg.cpp"
+"G:\DevGame2024\Jx1\JxWin\Source\GMPassGen\md5.cpp"
+]
+Creating command line "cl.exe @C:\Users\james\AppData\Local\Temp\RSP8990.tmp" 
+Creating temporary file "C:\Users\james\AppData\Local\Temp\RSP8991.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/GMPassGen.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"G:\DevGame2024\Jx1\JxWin\Source\GMPassGen\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\james\AppData\Local\Temp\RSP8991.tmp" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:no /pdb:"Release/GMPassGen.pdb" /machine:I386 /out:"Release/GMPassGen.exe"  .\Release\GMPassGen.obj .\Release\GMPassGenDlg.obj .\Release\md5.obj .\Release\StdAfx.obj .\Release\GMPassGen.res "
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+GMPassGen.cpp
+GMPassGenDlg.cpp
+md5.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+GMPassGen.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
